@@ -14,3 +14,5 @@ The first program converts raw data into formatted training, validation, and tes
 2. This model makes use of word-to-vector embeddings that are reduced dimension vector representations of words. Given a movie review, the feature vector is the normalized sum of the embeddings of words in the review.
 
 The model uses the negative conditional log-likelihood of the training data as the objective function for gradient descent.
+
+The program also computes the training and test erorr.
